@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta aria-checked="UTF-8"> 
+    <head>
+        <title>Clase 2 -programacion 3</title>
+        <style>
+            *
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+                font-weight: bold;
+            }
+
+            #h1
+            {
+                color: orangered;
+                font-family: 'Times New Roman', Times, serif;
+
+            }
+
+            .parrafo
+            {
+                color: brown;
+                background-color: palevioletred;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                font-size: medium;
+            }
+
+            #parrafo
+            {
+                color: azure;
+                background-color: blue;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                border: 5px solid cornflowerblue;
+                font-size: small;
+            }
+
+            p,
+            .parrafo,
+            #parrafo
+            {
+                border: 5px solid green;
+            }
+
+            span
+            {
+                font-weight: bolder;
+            }
+            
+            /* selector para elementos anidados */
+            p>span
+            {
+                font-weight: bold;
+                color: aqua;
+            }
+            
+            /*selector para elemntos subsiguientes*/
+            p+span
+            {
+                color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="h1">estilos</h1>
+        <span>Subtitulo</span>
+        <p style="color: blue; font-family: Arial, Helvetica, sans-serif; background-color: cornflowerblue;">
+            <span>Lorem ipsum dolor sit amet</span> 
+            consectetur, adipisicing elit. 
+            Aliquam, debitis accusantium 
+            obcaecati aperiam earum incidunt
+            libero illo numquam. Nostrum, 
+            in eligendi sint atque commodi 
+            aut animi non aperiam inventore 
+            officiis.
+        </p>
+        <span>spam</span>
+        <p class="parrafo">
+            Lorem ipsum dolor sit amet 
+            consectetur, adipisicing elit. 
+            Aliquam, debitis accusantium 
+            obcaecati aperiam earum incidunt
+            libero illo numquam. Nostrum, 
+            in eligendi sint atque commodi 
+            aut animi non aperiam inventore 
+            officiis.
+        </p>
+        <p class="parrafo">
+            Lorem ipsum dolor sit amet 
+            consectetur, adipisicing elit. 
+            Aliquam, debitis accusantium 
+            obcaecati aperiam earum incidunt
+            libero illo numquam. Nostrum, 
+            in eligendi sint atque commodi 
+            aut animi non aperiam inventore 
+            officiis.
+        </p>
+        <p id="parrafo">
+            Lorem ipsum dolor sit amet 
+            consectetur, adipisicing elit. 
+            Aliquam, debitis accusantium 
+            obcaecati aperiam earum incidunt
+            libero illo numquam. Nostrum, 
+            in eligendi sint atque commodi 
+            aut animi non aperiam inventore 
+            officiis.
+        </p>
+    </body>
+</html>
